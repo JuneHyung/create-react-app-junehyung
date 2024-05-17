@@ -1,0 +1,13 @@
+{
+  "name": "create-react-junehyung",
+  "version": "1.0.0",
+  "description": "create junehyung-react-boilerplate",
+  "bin": {
+    "create-react-junehyung": "./bin/generator.js"
+  },
+  "private": false,
+  "keywords": [
+    "react",
+    "boilerplate"
+  ]
+}
