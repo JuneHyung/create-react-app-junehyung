@@ -1,13 +1,24 @@
 {
   "name": "create-react-app-junehyung",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "create junehyung-react-boilerplate",
   "bin": {
     "create-react-app-junehyung": "./bin/generator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JuneHyung/create-react-app-junehyung"
+  },
+  "author": {
+    "name": "JuneHyung",
+    "email": "cjh951114@gmail.com"
   },
   "private": false,
   "keywords": [
     "react",
     "boilerplate"
-  ]
+  ],
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  }
 }
