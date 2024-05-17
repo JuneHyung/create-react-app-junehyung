@@ -20,7 +20,7 @@ const projectPath = isCurrentPathProject
   ? currentPath
   : path.join(currentPath, projectName);
 
-const GIT_REPO = ${YOUR_GIT_REPO_URL};
+const GIT_REPO = "https://github.com/JuneHyung/create-react-junehyung.git";
 
 // project-name 입력시
 if (!isCurrentPathProject) {
