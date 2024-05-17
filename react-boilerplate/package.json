@@ -1,7 +1,7 @@
 {
-  "name": "create_react_junehyung",
+  "name": "create_react_app_junehyung",
   "version": "1.0.0",
-  "description": "Ceate React By JuneHyung",
+  "description": "Ceate React App By JuneHyung",
   "main": "index.js",
   "scripts": {
     "dev": "vite",

@@ -7,7 +7,7 @@ const { removeSync, copySync } = require("fs-extra");
 // project-name 미입력
 if (process.argv.length < 3) {
   console.log("[ERROR]: Enter as in the example below");
-  console.log("ex) npx create-react-junehyung [project-name]");
+  console.log("ex) npx create-react-app-junehyung [project-name]");
   process.exit(1);
 }
 
@@ -20,7 +20,7 @@ const projectPath = isCurrentPathProject
   ? currentPath
   : path.join(currentPath, projectName);
 
-const GIT_REPO = "https://github.com/JuneHyung/create-react-junehyung.git";
+const GIT_REPO = "https://github.com/JuneHyung/create-react-app-junehyung.git";
 
 // project-name 입력시
 if (!isCurrentPathProject) {
@@ -42,7 +42,7 @@ if (!isCurrentPathProject) {
 async function generator() {
   try {
     // git clone
-    console.log("[INFO]: Downloading create-react-junehyung...");
+    console.log("[INFO]: Downloading create-react-app-junehyung...");
     execSync(`git clone ${GIT_REPO} ${tempPath}`);
 
     // 임시 폴더에서 react-boilerplate만 복사
@@ -63,7 +63,7 @@ async function generator() {
     execSync("npm install");
 
     // SUCCESS !
-    console.log("[SUCCESS]: Success to create-react-junehyung. Available now !");
+    console.log("[SUCCESS]: Success to create-react-app-junehyung. Available now !");
   } catch (error) {
     console.log(error);
   }
