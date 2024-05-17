@@ -43,7 +43,7 @@ async function generator() {
   try {
     // git clone
     console.log("[INFO]: Downloading create-react-app-junehyung...");
-    execSync(`git clone ${GIT_REPO} ${tempPath}`);
+    execSync(`git clone ${GIT_REPO} ${tempPath}`, {stdio: 'inherit'});
 
     // 임시 폴더에서 react-boilerplate만 복사
     console.log("[INFO]: Copying files...");
@@ -60,12 +60,12 @@ async function generator() {
 
     // 의존성 설치
     console.log("[INFO]: install dependencies...");
-    execSync("npm install");
+    execSync("npm install", {stdio: 'inherit'});
 
     // SUCCESS !
     console.log("[SUCCESS]: Success to create-react-app-junehyung. Available now !");
   } catch (error) {
-    console.log(error);
+    console.error("[ERROR]: An error occurred during the process:", error.message);
   }
 }
 
