@@ -1,5 +1,9 @@
+import Content from "./components/Content";
+
 function App() {
-  return <h1>Hello React !</h1>;
+  return <div className="app">
+    <Content />
+  </div>
 }
 
 export default App;
