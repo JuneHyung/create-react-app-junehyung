@@ -1,7 +1,6 @@
 .nav-header{
   display:flex;
-  height: 60px;
-
+  flex:1;
   a{
     display:flex;
     flex:1;
@@ -13,7 +12,6 @@
     font-weight:900;
     cursor: pointer;
     transition: all 0.4s;
-    background-color:rgba(255,255,255,0.2);
     &:hover{
       background-color:rgba(255,255,255,1);
       color:$point-color;
