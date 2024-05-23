@@ -44,7 +44,7 @@ npx create-react-app-junehyung [project-name]
 
 ## 🌏 Change logs
 
-### 👉 v0.1.7
+### 👉 v0.1.8
 
 * install `chalk`, `semver`
 * install 시 Node version 체크 (20.0.0 이상)

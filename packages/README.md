@@ -11,11 +11,12 @@ npx create-react-app-junehyung [project-name]
 > node-sass 오류가 난다면, node-sass 버전 확인.
 >
 > 📘 [npm사이트 - node-sass](https://www.npmjs.com/package/node-sass)
+
 <br/>
 
 ## 🌏 Change logs
 
-### 👉 v0.1.7
+### 👉 v0.1.8
 
 * install `chalk`, `semver`
 * install 시 Node version 체크 (20.0.0 이상)
