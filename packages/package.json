@@ -1,6 +1,6 @@
 {
   "name": "create-react-app-junehyung",
-  "version": "0.0.2",
+  "version": "0.1.7",
   "description": "create junehyung-react-boilerplate",
   "bin": {
     "create-react-app-junehyung": "./bin/generator.js"
@@ -19,6 +19,8 @@
     "boilerplate"
   ],
   "dependencies": {
-    "fs-extra": "^11.2.0"
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.2.0",
+    "semver": "^7.6.2"
   }
 }
