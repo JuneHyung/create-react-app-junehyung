@@ -1,0 +1,1 @@
+import{j as e,L as p}from"./index-8D0H0_Ns.js";const s=()=>{const t=[{path:"/",label:"Open Page"},{path:"/page01",label:"Page01"},{path:"/page02",label:"Page02"}];return e.jsx("nav",{className:"nav-header",children:t.map(a=>e.jsx(p,{to:a.path,children:a.label},a.path))})};export{s as N};

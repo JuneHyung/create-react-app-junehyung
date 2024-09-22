@@ -6,7 +6,7 @@
     li {
       display: flex;
       flex: 0 1 100px;
-      border: 1px solid $point-color;
+      border: 1px solid theme.$point-color;
       padding: 1rem;
       box-sizing: border-box;
       margin: 4px;
@@ -23,7 +23,7 @@
       }
       &:hover {
         background-color: #fff;
-        color: $point-color;
+        color: theme.$point-color;
       }
     }
   }

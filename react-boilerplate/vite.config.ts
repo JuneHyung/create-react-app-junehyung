@@ -14,12 +14,17 @@ export default defineConfig({
       "@": "/src",
     },
   },
+
   // scss전역사용
-  // css: {
-  //   preprocessorOptions: {
-  //     scss: {
-  //       additionalData: `@import "./assets/scss/theme.scss";`,
-  //     },
-  //   },
-  // },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: "modern-compiler", // or "modern", "legacy"
+        includePaths: ["src/assets/scss"],
+        additionalData: `
+          @use "theme";
+        `,
+      },
+    },
+  },
 });

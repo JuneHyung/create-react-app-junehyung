@@ -8,14 +8,14 @@
     width: 60px;
     font-size: 1rem;
     background-color: rgb(182, 182, 182);
-    li{
+    li {
       text-align: center;
-      height:60px;
-      line-height:60px;
-      cursor:pointer;
-      &:hover{
-        background-color:rgba(255,255,255,1);
-        color:$point-color;
+      height: 60px;
+      line-height: 60px;
+      cursor: pointer;
+      &:hover {
+        background-color: rgba(255, 255, 255, 1);
+        color: theme.$point-color;
       }
     }
   }
@@ -23,13 +23,13 @@
     width: 100%;
     header {
       display: flex;
-      height:40px;
+      height: 40px;
       font-size: 1rem;
       background-color: rgba(255, 255, 255, 0.2);
     }
     main {
       display: flex;
-      border: 1px solid $point-color;
+      border: 1px solid theme.$point-color;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -54,7 +54,7 @@
       justify-content: center;
       align-items: center;
       height: 100px;
-      border: 1px solid $point-color;
+      border: 1px solid theme.$point-color;
       background-color: rgba(255, 255, 255, 0.2);
     }
   }

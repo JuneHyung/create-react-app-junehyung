@@ -10,6 +10,7 @@
     "lib": ["ESNext", "DOM", "DOM.Iterable"], // 컴파일에 포함될 라이브러리 파일 목록
     "module": "ESNext", // 생성되는 모듈 코드 지정
     "moduleResolution": "Node", // 모듈 해석방법 설정
+    "noImplicitAny": true,
     "paths": { // baseUrl을 기준으로 관련된 위치에 모듈 이름의 경로 매핑 목록을 나열
       "@/*": ["src/*"]
     },
@@ -17,8 +18,9 @@
     "skipLibCheck": false, // 모든 선언 파일(*.d.ts)의 타입 검사를 건너뜀
     "strict": true, // 엄격한 유형 검사 옵션 활성화
     "target": "ESNext", // 내보낸 JavaScript의 Javascript 언어 버전을 설정하고 호환 가능한 라이브러리 선언을 포함.
+    "typeRoots": ["./types"],
     "useDefineForClassFields": true, // class Field를 ECMAScript표준 시맨틱으로 내보냄
   },
-  "include": ["src", "vite.config.ts"],
-  "exclude": ["node_modules", "build", "dist"]
+  "include": ["src/**/*", "vite.config.ts"], // src의 하위 디렉터리에 있는 모든 파일을 컴파일 대상으로 포함한다는 뜻.
+  "exclude": ["node_modules", "build", "dist"] // 컴파일 대상이 아닌 파일 경로
 }

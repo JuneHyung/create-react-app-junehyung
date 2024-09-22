@@ -2,11 +2,12 @@
 @import "./pages/openPage.scss";
 @import "./pages/layout01.scss";
 @import "./pages/layout02.scss";
+
 .app {
-  background: $background-color;
+  background: theme.$background-color;
   display: flex;
   flex-direction: column;
   min-height: 100dvh;
   padding: 1rem;
-  color: $white-color;
+  color: theme.$white-color;
 }

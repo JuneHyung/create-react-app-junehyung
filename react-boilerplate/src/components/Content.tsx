@@ -1,8 +1,9 @@
-import OpenPage from '@/pages/OpenPage';
-import Layout01 from '@/pages/Layout01';
-import Layout02 from '@/pages/Layout02';
-import { Suspense } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { lazy, Suspense } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+const OpenPage = lazy(() => import("@/pages/OpenPage"));
+const Layout01 = lazy(() => import("@/pages/Layout01"));
+const Layout02 = lazy(() => import("@/pages/Layout02"));
 
 const Content = () => {
   return (

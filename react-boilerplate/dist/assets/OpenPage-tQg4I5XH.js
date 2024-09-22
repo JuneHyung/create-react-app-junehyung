@@ -1,0 +1,1 @@
+import{j as e,L as s}from"./index-8D0H0_Ns.js";const i=()=>e.jsxs("div",{className:"open-page",children:[e.jsx("h1",{children:"Let's See Layout"}),e.jsxs("ul",{children:[e.jsx("li",{children:e.jsx(s,{to:"/page01",children:"Layout01"})}),e.jsx("li",{children:e.jsx(s,{to:"/page02",children:"Layout02"})})]})]});export{i as default};

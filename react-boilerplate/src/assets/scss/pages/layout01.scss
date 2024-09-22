@@ -6,14 +6,14 @@
   font-size: 2rem;
   header {
     display: flex;
-    border: 1px solid $point-color;
-    height:60px;
+    border: 1px solid theme.$point-color;
+    height: 60px;
     background-color: rgba(255, 255, 255, 0.2);
     font-size: 1rem;
   }
   main {
     display: flex;
-    border: 1px solid $point-color;
+    border: 1px solid theme.$point-color;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,7 @@
     justify-content: center;
     align-items: center;
     height: 100px;
-    border: 1px solid $point-color;
+    border: 1px solid theme.$point-color;
     background-color: rgba(255, 255, 255, 0.2);
   }
 }
