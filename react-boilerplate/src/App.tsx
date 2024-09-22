@@ -1,4 +1,5 @@
-import Content from './components/Content';
+import "@/assets/scss/app.scss";
+import Content from "./components/Content";
 
 function App() {
   return (

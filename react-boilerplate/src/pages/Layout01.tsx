@@ -1,3 +1,4 @@
+import "@/assets/scss/pages/layout01.scss";
 import NavHeader from "@/components/common/NavHeader";
 
 const Layout01 = () => {

@@ -21,10 +21,14 @@ export default defineConfig({
       scss: {
         api: "modern-compiler", // or "modern", "legacy"
         includePaths: ["src/assets/scss"],
-        additionalData: `
-          @use "theme";
-        `,
+        additionalData: `@use "@/assets/scss/theme";`,
       },
     },
+  },
+
+  // 빌드 설정
+  build: {
+    minify: "esbuild", // CSS 압축 설정
+    cssCodeSplit: true, // CSS 코드 분할 설정
   },
 });

@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-
+import { Link } from "react-router-dom";
+import "@/assets/scss/pages/openPage.scss";
 const OpenPage = () => {
   return (
     <div className="open-page">

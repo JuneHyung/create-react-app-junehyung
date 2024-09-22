@@ -1,3 +1,4 @@
+import "@/assets/scss/components/common/NavHeader.scss";
 import { PathList } from "@/models/path";
 import { Link } from "react-router-dom";
 

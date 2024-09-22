@@ -1,4 +1,5 @@
-import NavHeader from '@/components/common/NavHeader';
+import "@/assets/scss/pages/layout02.scss";
+import NavHeader from "@/components/common/NavHeader";
 
 const Layout02 = () => {
   return (
