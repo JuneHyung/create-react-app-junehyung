@@ -1,7 +1,7 @@
 import "@/assets/scss/pages/layout01.scss";
-import NavHeader from "@/components/common/NavHeader";
+import { NavHeader } from "@/components/common/NavHeader";
 
-const Layout01 = () => {
+export const Layout01 = () => {
   return (
     <div className="layout-01">
       <header className="layout-01-header">
@@ -15,5 +15,3 @@ const Layout01 = () => {
     </div>
   );
 };
-
-export default Layout01;

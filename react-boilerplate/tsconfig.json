@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "allowJs": true, // Javascript 파일의 컴파일 허용
+    "checkJs": true, // Javascript 파일에 대한 타입 검사 수행.
     "allowSyntheticDefaultImports": true, // default export가 없는 모듈에서 default imports를 허용.
     "baseUrl": ".", // 비-상대적 모듈 이름을 해석하기 위한 기본 디렉터리. 
     "esModuleInterop": true, 

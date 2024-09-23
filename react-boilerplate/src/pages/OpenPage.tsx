@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "@/assets/scss/pages/openPage.scss";
-const OpenPage = () => {
+
+export const OpenPage = () => {
   return (
     <div className="open-page">
       <h1>Let's See Layout</h1>
@@ -16,4 +17,3 @@ const OpenPage = () => {
   );
 };
 
-export default OpenPage;

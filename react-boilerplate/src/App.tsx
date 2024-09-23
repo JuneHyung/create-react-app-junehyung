@@ -1,12 +1,10 @@
 import "@/assets/scss/app.scss";
-import Content from "./components/Content";
+import { Content } from "./components/Content";
 
-function App() {
+export const App = () => {
   return (
     <div className="app">
       <Content />
     </div>
   );
 }
-
-export default App;

@@ -2,7 +2,7 @@ import "@/assets/scss/components/common/NavHeader.scss";
 import { PathList } from "@/models/path";
 import { Link } from "react-router-dom";
 
-const NavHeader = () => {
+export const NavHeader = () => {
   const pathList: PathList = [
     { path: "/", label: "Open Page" },
     { path: "/page01", label: "Page01" },
@@ -20,5 +20,3 @@ const NavHeader = () => {
     </nav>
   );
 };
-
-export default NavHeader;

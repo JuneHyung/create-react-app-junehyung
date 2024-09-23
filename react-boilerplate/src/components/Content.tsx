@@ -1,11 +1,11 @@
 import { lazy, Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-const OpenPage = lazy(() => import("@/pages/OpenPage"));
-const Layout01 = lazy(() => import("@/pages/Layout01"));
-const Layout02 = lazy(() => import("@/pages/Layout02"));
+const OpenPage = lazy(() => import("@/pages/OpenPage").then(({OpenPage})=>({default: OpenPage})));
+const Layout01 = lazy(() => import("@/pages/Layout01").then(({Layout01})=>({default: Layout01})));
+const Layout02 = lazy(() => import("@/pages/Layout02").then(({Layout02})=>({default: Layout02})));
 
-const Content = () => {
+export const Content = () => {
   return (
     <div className="content">
       <BrowserRouter>
@@ -20,5 +20,3 @@ const Content = () => {
     </div>
   );
 };
-
-export default Content;

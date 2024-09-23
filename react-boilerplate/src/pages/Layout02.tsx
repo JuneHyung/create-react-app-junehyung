@@ -1,7 +1,7 @@
 import "@/assets/scss/pages/layout02.scss";
-import NavHeader from "@/components/common/NavHeader";
+import { NavHeader } from "@/components/common/NavHeader";
 
-const Layout02 = () => {
+export const Layout02 = () => {
   return (
     <div className="layout-02">
       <ul className="layout-02-left-menu">
@@ -22,5 +22,3 @@ const Layout02 = () => {
     </div>
   );
 };
-
-export default Layout02;
